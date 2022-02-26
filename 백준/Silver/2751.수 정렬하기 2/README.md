@@ -23,4 +23,6 @@
  <p>첫째 줄부터 N개의 줄에 오름차순으로 정렬한 결과를 한 줄에 하나씩 출력한다.</p>
 
 
-
+### 메모   
+Python3에서는 **시간 초과**, Pypy3로 바꾸어 돌렸더니 작동하였다.   
+https://ralp0217.tistory.com/entry/Python3-%EC%99%80-PyPy3-%EC%B0%A8%EC%9D%B4
