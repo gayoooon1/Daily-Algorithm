@@ -1,0 +1,7 @@
+-- 코드를 입력하세요
+-- SELECT NAME, count(NAME) from 
+-- select NAME, count(NAME) from 
+select distinct NAME, count(NAME) from ANIMAL_INS group by NAME having count(NAME) >=2 order by NAME;
+
+-- GROUP BY 절에 의해서 생긴 각 그룹에 대해서 조건을 적용하려면 HAVING절을 사용해야 한다. 
+-- 출처: https://ttend.tistory.com/618 [toward the end · · ·:티스토리]
