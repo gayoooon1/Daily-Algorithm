@@ -1,0 +1,4 @@
+-- 코드를 입력하세요
+SELECT ANIMAL_TYPE, COALESCE(NAME, 'No name') AS NAME, SEX_UPON_INTAKE FROM ANIMAL_INS ORDER BY ANIMAL_ID;
+
+# COALESCE(NAME, 'No name')을 쓰면 컬럼 그대로 나오고 NAME도 함께 나옴
